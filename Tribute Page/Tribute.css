@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.career, .achievements {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.achievements ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery .image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallery img {
+    max-width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .gallery .image-container img {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery .image-container img {
+        max-width: 90%;
+    }
+}
