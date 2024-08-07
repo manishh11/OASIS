@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B5998;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #f0f4f7;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+h1.text-center {
+    color: #fff;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.input {
+    width: calc(100% - 16px);
+    padding: 30px;
+    font-size: 1.2em;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: right;
+    background-color: #e6ecf1;
+}
+
+.button {
+    background-color: #A3C3D9;
+    padding: 20px;
+    font-size: 0.85em;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 60px;
+    margin: 0 3px;
+    flex: 2;
+}
+
+.button:hover {
+    background-color: #91b0c4;
+}
+.button-type{
+    background-color: #A3C3D9;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 80px;
+    margin: 0 3px;
+    flex: 10;
+}
+.button.equal {
+    background-color: #3B5998;
+    color: #fff;
+    flex: 70;
+}
+
+.button.equal:hover {
+    background-color: #30487a;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .button {
+        padding: 15px;
+        font-size: 1em;
+    }
+
+    .input {
+        font-size: 1em;
+    }
+
+    h1.text-center {
+        font-size: 1.5em;
+    }
+}
